@@ -19,7 +19,7 @@ const generateCountDown = ({ endDate, state, setState, setIsExpired }) => {
 }
 
 function CountDown() {
-    const [endDate, setEndDate] = useState("09/24/2021")
+    const [endDate, setEndDate] = useState("09/24/2023")
     const [state, setState] = useState({})
     const [isExpired, setIsExpired] = useState(null)
     const interval = useRef()
